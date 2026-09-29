@@ -1,0 +1,15 @@
+{
+  "description": "pstack: keeps /poteto-mode sticky across turns",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/poteto-mode-sticky.sh\""
+          }
+        ]
+      }
+    ]
+  }
+}

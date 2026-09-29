@@ -1,0 +1,15 @@
+{
+  "name": "pstack",
+  "owner": {
+    "name": "chjing"
+  },
+  "plugins": [
+    {
+      "name": "pstack",
+      "source": "./",
+      "description": "Claude Code port of pstack: poteto-mode, playbooks, principles, and multi-agent workflow skills.",
+      "version": "0.15.5-claude.3"
+    }
+  ],
+  "description": "Claude Code port of pstack (Cursor plugin by Lauren Tan)"
+}
